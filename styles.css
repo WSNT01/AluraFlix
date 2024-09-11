@@ -1,0 +1,69 @@
+body{
+    color: white;
+    background: rgb(13, 8, 84);
+    margin: 0px;
+    font-family: "Yantramanav", sans-serif;
+}
+
+header{
+    border-bottom: solid 15px red;
+    padding: 10px;
+    font-size: 22px;
+    color: red;
+}
+
+.first_video{
+    border:solid 2px red;
+    margin: 10px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    margin-right: 3%;
+}
+
+h1{
+    font-size: 35px;
+}
+
+p{
+    font-size: 25px;
+}
+
+img{
+ 
+   height: 200px;
+}
+
+.categor_videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.demais_videos{
+    border:solid 2px red;
+    margin-top: 25px;
+    margin-bottom: 75px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.categor_videos img {
+    opacity: 0.7;
+}
+
+.categor_videos img:hover{
+    opacity: 1.0;
+    border: 1px solid red;
+}
+
+.demais_videos h2{
+    color: white;
+}
